@@ -1,0 +1,27 @@
+development: &default
+  adapter: postgresql
+  host: localhost
+  database: goalshub_dev
+  pool: 5
+  username: goalshub_dev
+  password: goalshub_dev
+
+# Warning: The database defined as "test" will be erased and
+# re-generated from your development database when you run "rake".
+# Do not set this db to the same as development or production.
+test: &test
+  <<: *default
+  database: goalshub_test
+
+  username: goalshub_test
+  password: goalshub_test
+
+production:
+  <<: *default
+  host: 104.236.221.83
+  database: goalshub_prod
+  username: goalshub_prod
+  password: goalshub_prod
+
+cucumber:
+  <<: *test

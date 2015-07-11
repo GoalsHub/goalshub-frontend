@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  name: Open own cofee shop in Amsterdam
+  description: Good thing I believe
+
+two:
+  id: 2
+  name: Destroy all evil people
+  description: Ha-ha-ha
