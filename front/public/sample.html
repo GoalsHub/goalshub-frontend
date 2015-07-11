@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="page-header">
+        <h1>Этап</h1>
+    </div>
+
+    <div class="panel panel-primary">
+        <div class="panel-body">
+
+
+            <ul class="list-group">
+                <li class="list-group-item">Шаг один</li>
+                <li class="list-group-item">Шаг два</li>
+                <li class="list-group-item">Шаг три</li>
+                <li class="list-group-item">Шаг четыре</li>
+                <li class="list-group-item">Шаг пять</li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div id="content">
+    </div>
+    <script id='appMustache' type='text/mustache'>
+        <todos-app>
+          <h2>Todays to-dos</h2>
+          {{#selectedTodo}}
+          <div id='editor'>
+            <input type='text' can-value='description' can-change="saveTodo"/>
+          </div>
+          {{/selectedTodo}}
+          <ul>
+            {{#each todos}}
+            <li>
+              <input type='checkbox' can-value='complete'>
+              <span class="description {{#if complete}}done{{/if}}" can-click='select'>{{description}}</span>
+              <button can-click="destroy"></button>
+            </li>
+            {{/each}}
+          </ul>
+        </todos-app>
+    </script>
+
+    <div class="panel panel-info">
+        <div class="page-header">AAA</div>
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input id="stage-name" type="text" class="form-control" placeholder="stage name">
+            </div>
+            <button type="submit" class="btn btn-default">Add</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
