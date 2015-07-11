@@ -1,51 +1,24 @@
-var STEPS = [
-    'Download CanJS',
-    'Read the guides',
-    'Build your app',
-    'Become immortal',
-    'Haircut @ 2pm'
-];
 
-/* Модель шага */
-var Step = can.Model.extend({
-    findAll: 'GET /steps',
-    findOne: 'GET /steps/{id}',
-    update: 'PUT /steps/{id}',
-    destroy: 'DELETE /steps/{id}'
-}, {});
 
-/* Хранилище шагов */
-var stepsStore = can.fixture.make(STEPS.length, function (i) {
-    return {
-        id: i + 1,
-        description: STEPS[i],
-        done: false
-    };
+// Show Stage view
+//$('#content').html(can.view('components/stage/stage.hbs', { }));
+
+if (sessionStorage.getItem('token') && sessionStorage.getItem('email')) {
+
+    $.ajaxPrefilter(function (options, originalOptions, jqXHR) {
+        jqXHR.setRequestHeader('X-Api-Key', sessionStorage.getItem('token'));
+        jqXHR.setRequestHeader('X-Account-Name', sessionStorage.getItem('email'));
+    });
+
+} else {
+    window.location = 'signin.html';
+}
+
+$(function () {
+
+    $.get('http://sleepy-castle-1003.herokuapp.com/goals/1.json', function(data) {
+        console.log(data);
+    });
+
+    $('#content').html(can.view('components/singin/singin.hbs', { }));
 });
-
-can.fixture({
-    'GET /steps': stepsStore.findAll,
-    'GET /steps/{id}': stepsStore.findOne,
-    'PUT /steps/{id}': stepsStore.update,
-    'DELETE /steps/{id}': stepsStore.destroy
-});
-can.fixture.delay = 500;
-
-
-can.Component.extend({
-    tag: "stage-app",
-    scope: {
-        selectedStep: null,
-        steps: new Step.List({}),
-        select: function(step){
-            this.attr('selectedStep', step);
-        },
-        saveStep: function(step) {
-            step.save();
-            this.removeAttr('selectedStep');
-        }
-    }
-});
-
-// Start the application by rendering our template!
-$('#content').html(can.view('appMustache', { }));

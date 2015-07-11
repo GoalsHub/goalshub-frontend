@@ -13,44 +13,15 @@
     <script src="//canjs.com/release/2.1.0/can.jquery.js"></script>
     <script src="//canjs.com/release/2.1.0/can.object.js"></script>
     <script src="//canjs.com/release/2.1.0/can.fixture.js"></script>
+    <script src="libs/jquery.cookie.js"></script>
+
+    <script src="components/step/step.model.js"></script>
+    <script src="components/stage/stage.js"></script>
+    <script src="index.js"></script>
 </head>
 <body>
 
-<div id="content"  class="container">
-    <div class="page-header">
-        <h1>Этап</h1>
-    </div>
-</div>
+<div id="content" class="container"></div>
 
-<script id='appMustache' type='text/mustache'>
-<stage-app>
-    <div class="page-header">
-        <h1>Этап</h1>
-    </div>
-  {{#selectedStep}}
-  <div id='editor' class="input-group">
-      <span class="input-group-addon glyphicon glyphicon-pencil"></span>
-      <input type="text" class="form-control" placeholder="Username" can-value='description' can-change="saveStep">
-  </div>
-  <br/>
-  {{/selectedStep}}
-
-   <div class="panel panel-primary">
-       <div class="panel-body">
-        <ul class="list-group">
-                {{#each steps}}
-                <li class="list-group-item">
-                    <input type='checkbox' can-value='complete'>
-                    <span class="description {{#if complete}}done{{/if}}" can-click='select'>{{description}}</span>
-                    <span class="glyphicon glyphicon-remove" can-click="destroy"></span>
-                </li>
-                {{/each}}
-            </ul>
-       </div>
-   </div>
-
-</stage-app>
-</script>
-<script src="index.js"></script>
 </body>
 </html>

@@ -1,0 +1,27 @@
+<stage-view>
+    <div class="page-header">
+        <h1>Этап</h1>
+    </div>
+  {{#selectedStep}}
+  <div id='editor' class="input-group">
+      <span class="input-group-addon glyphicon glyphicon-pencil"></span>
+      <input type="text" class="form-control" placeholder="Username" can-value='description' can-change="saveStep">
+  </div>
+  <br/>
+  {{/selectedStep}}
+
+   <div class="panel panel-primary">
+       <div class="panel-body">
+        <ul class="list-group">
+                {{#each steps}}
+                <li class="list-group-item">
+                    <input type='checkbox' can-value='complete'>
+                    <span class="description {{#if complete}}done{{/if}}" can-click='select'>{{description}}</span>
+                    <span class="glyphicon glyphicon-remove" can-click="destroy"></span>
+                </li>
+                {{/each}}
+            </ul>
+       </div>
+   </div>
+
+</stage-view>
