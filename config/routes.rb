@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  resources :steps
+  resources :stages
+  resources :plans
   devise_for :users
   resources :goals
   resources :tokens,:only => [:create, :destroy]
