@@ -3,7 +3,7 @@ json.plans @goal.plans do |plan|
   json.extract! plan, :id, :name, :description
   json.stages plan.stages do |stage|
     json.extract! stage, :id, :name, :description
-    json.step stage.steps do |step|
+    json.steps stage.steps do |step|
       json.extract! step, :id, :name, :description, :done
     end
   end
