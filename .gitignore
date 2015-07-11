@@ -16,3 +16,4 @@
 !/log/.keep
 /tmp
 .idea
+npm-debug.log
