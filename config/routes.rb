@@ -3,9 +3,9 @@ Rails.application.routes.draw do
   devise_for :users
 
   resources :goals
-  resources :plans
-  resources :stages
-  resources :steps
+  resources :plans, :except => [:index]
+  resources :stages, :except => [:index]
+  resources :steps, :except => [:index]
 
   resources :tokens,:only => [:create, :destroy]
 

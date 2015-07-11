@@ -1,15 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  description: MyText
+  name: step1
+  description: step1
   stage_id: 1
   done: false
   user_id: 1
 
 two:
-  name: MyString
-  description: MyText
+  name: step2
+  description: step2
   stage_id: 1
   done: false
   user_id: 1

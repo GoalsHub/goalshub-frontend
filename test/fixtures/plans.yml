@@ -1,13 +1,15 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  description: MyText
+  id: 1
+  name: plan1
+  description: plan1
   goal_id: 1
   user_id: 1
 
 two:
-  name: MyString
-  description: MyText
+  id: 2
+  name: plan2
+  description: plan2
   goal_id: 1
   user_id: 1
