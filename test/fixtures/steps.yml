@@ -146,3 +146,122 @@ twentyone:
   stage_id: 4
   done: false
   user_id: 1  
+
+twentytwo:
+  name: Изучать технологию при любой возможности
+  description: Изучать технологию при любой возможности
+  stage_id: 5
+  done: false
+  user_id: 2 
+  
+twentythree:
+  name: Разбирать практические кейсы
+  description: Разбирать практические кейсы
+  stage_id: 5
+  done: false
+  user_id: 2 
+  
+twentyfour:
+  name: Тестировать границы и лимиты применения технологии
+  description: Тестировать границы и лимиты применения технологии (выйти за документированные пределы)
+  stage_id: 5
+  done: false
+  user_id: 2
+  
+twentyfive:
+  name: Изучать нестандартные кейсы
+  description: Изучать нестандартные кейсы
+  stage_id: 5
+  done: false
+  user_id: 2
+  
+twentysix:
+  name: Общаться с разработчиками
+  description: Общаться с разработчиками
+  stage_id: 5
+  done: false
+  user_id: 2
+  
+twentyseven:
+  name: Общаться с маркетологами
+  description: Общаться с маркетологами
+  stage_id: 5
+  done: false
+  user_id: 2
+  
+twentyeight:
+  name: Общаться с другими евангелистами
+  description: Общаться с другими евангелистами
+  stage_id: 5
+  done: false
+  user_id: 2
+  
+twentynine:
+  name: Проанализировать собственную мотивацию
+  description: Проанализировать собственную мотивацию
+  stage_id: 6
+  done: false
+  user_id: 2
+  
+thirty:
+  name: Научиться лучше говорить
+  description: Научиться лучше говорить, избавиться от слов паразитов
+  stage_id: 6
+  done: false
+  user_id: 2
+  
+thirtyone:
+  name: Научить рисовать картинки для презентаций
+  description: Научить рисовать картинки для презентаций
+  stage_id: 6
+  done: false
+  user_id: 2
+  
+thirtytwo:
+  name: Научиться делать презентации
+  description: Научиться делать презентации
+  stage_id: 6
+  done: false
+  user_id: 2
+  
+thirtythree:
+  name: Рассказывать о технологии в школах и университетах
+  description: Начать рассказывать о технологии в школах и университетах 
+  stage_id: 7
+  done: false
+  user_id: 2
+  
+thirtyfour:
+  name: Участвовать в профильных мероприятиях
+  description: Участвовать в профильных мероприятиях 
+  stage_id: 7
+  done: false
+  user_id: 2
+  
+thirtythree:
+  name: Писать статьи
+  description: Писать статьи 
+  stage_id: 7
+  done: false
+  user_id: 2
+  
+thirtythree:
+  name: Отрефлексировать личный баланс
+  description: Отрефлексировать личный баланс между практикой и евангелизмом 
+  stage_id: 8
+  done: false
+  user_id: 2
+
+thirtythree:
+  name: Понять приоритеты
+  description: Понять приоритеты - массовые выступления на широкую аудиторию или узкое общение с избранными продвинутыми людьми
+  stage_id: 8
+  done: false
+  user_id: 2
+
+thirtythree:
+  name: Развиваться и создавать новые истории
+  description: Развиваться и создавать новые истории 
+  stage_id: 9
+  done: false
+  user_id: 2
