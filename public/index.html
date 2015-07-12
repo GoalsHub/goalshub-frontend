@@ -5,7 +5,9 @@
 
     <link rel="stylesheet" href="libs/bootstrap.min.css">
     <link rel="stylesheet" href="libs/bootstrap-theme-orange.css">
-
+    <script>
+        var SERVER_API = 'http://sleepy-castle-1003.herokuapp.com';
+    </script>
     <script src="libs/lodash.min.js"></script>
     <script src="libs/jquery.min.js"></script>
     <script src="libs/bootstrap.min.js"></script>
@@ -120,17 +122,23 @@
 
 
 <script type="lodash/template" id="stage-template">
-    <h3><%=name %> 1&nbsp;&nbsp;<button class="btn btn-xs btn-success"><span class="glyphicon glyphicon-edit"></span>&nbsp;Edit</button></h3>
-    <small><%=description %></small>
-    <% children.forEach(function(elem) { %>
-        <div class="checkbox lead"><label><input type="checkbox">&nbsp;&nbsp;<%=elem.name%></label></div>
-    <% }) %>
-    <div class="input-group input-group">
-        <input type="text" class="form-control" placeholder="Type in new step here">
-        <span class="input-group-btn">
-            <button class="btn btn-primary" type="button">Add</button>
-        </span>
-    </div>
+
+        <h3><%=name %> 1&nbsp;&nbsp;<button class="btn btn-xs btn-success"><span class="glyphicon glyphicon-edit"></span>&nbsp;Edit</button></h3>
+        <small><%=description %></small>
+        <div id="stage-<%=entity_id%>-children">
+            <% children.forEach(function(elem) { %>
+                <div class="checkbox lead"><label>
+                    <input plan="<%=parent_id%>" stage="<%=entity_id %>" step="<%=elem.entity_id%>" type="checkbox" <%=elem.done ? 'checked' : '' %> >&nbsp;&nbsp;<%=elem.name%></label></div>
+            <% }) %>
+        </div>
+        <div class="input-group input-group">
+            <input type="text" id="new-step-for-<%=entity_id %>"
+                   class="form-control"
+                   placeholder="Type in new step here" />
+            <span class="input-group-btn">
+                <button class="btn btn-primary new-step" plan="<%=parent_id%>" stage="<%=entity_id %>" type="button">Add</button>
+            </span>
+        </div>
 
     <hr/>
 </script>
