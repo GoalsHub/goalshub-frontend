@@ -62,4 +62,38 @@ nine:
   description: Непрерывное развитие
   plan_id: 2
   user_id: 2
+ 
+ten:
+  id: 10
+  name: Автоматизированный учёт проектной работы
+  description: Автоматизированный учёт проектной работы
+  plan_id: 4
+  user_id: 5 
   
+eleven:
+  id: 11
+  name: Организация каналов продаж 
+  description: Организация каналов продаж
+  plan_id: 4
+  user_id: 5 
+
+twelve:
+  id: 12
+  name: Раскрутка бренда и стоимости компании 
+  description: Раскрутка бренда и стоимости компании
+  plan_id: 4
+  user_id: 5 
+
+thirteen:
+  id: 13
+  name: Работа с персоналом 
+  description: Работа с персоналом
+  plan_id: 4
+  user_id: 5 
+
+fourteen:
+  id: 14
+  name: Внедрить систему обмена информацией
+  description: Внедрить систему обмена информацией
+  plan_id: 4
+  user_id: 5 
