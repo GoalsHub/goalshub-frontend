@@ -21,7 +21,7 @@ json.children @goal.plans do |plan|
       json.type 'step'
       json.id "step#{step.id}"
       json.entity_id step.id
-      json.parent_id step.id
+      json.parent_id stage.id
       json.parent_type 'stage'
     end
   end
