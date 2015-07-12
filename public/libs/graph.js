@@ -17,8 +17,8 @@ function drawGraph(json) {
         //set overridable=true for styling individual
         //nodes or edges
         Node: {
-            height: 20,
-            width: 60,
+            height: 70,
+            width: 70,
             type: 'rectangle',
             color: '#aaa',
             overridable: true
