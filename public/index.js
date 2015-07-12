@@ -39,7 +39,7 @@ $(function () {
 
 
 
-        //drawGraph(model);
+        drawGraph(model);
 
         showPlans(model);
 
