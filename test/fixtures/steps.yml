@@ -1,15 +1,267 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: step1
-  description: step1
+  name: Описание плюсов, минусов, ценности технологии
+  description: Описание плюсов, минусов, ценности технологии
   stage_id: 1
   done: false
   user_id: 1
 
 two:
-  name: step2
-  description: step2
+  name: Создание библиотеки кейсов по имплементации и использованию решения
+  description: Создание библиотеки кейсов по имплементации и использованию решения
   stage_id: 1
   done: false
   user_id: 1
+
+three:
+  name: Разработка структуры сайта
+  description: Разработка структуры сайта
+  stage_id: 1
+  done: false
+  user_id: 1
+  
+four:
+  name: Разработка дизайна сайта
+  description: Разработка дизайна сайта
+  stage_id: 1
+  done: false
+  user_id: 1
+  
+five:
+  name: Создание инфраструктуры для онлайн-поддержки
+  description: Создание инфраструктуры для онлайн-поддержки новообращенных (форум, обратная связь)
+  stage_id: 1
+  done: false
+  user_id: 1
+
+six:
+  name: Создание сайта
+  description: Создание сайта
+  stage_id: 1
+  done: false
+  user_id: 1
+  
+seven:
+  name: Тестирование сайта
+  description: Тестирование сайта
+  stage_id: 1
+  done: false
+  user_id: 1
+  
+eight:
+  name: Понять какие мероприятия нам нужны
+  description: Понять какие мероприятия нам нужны
+  stage_id: 2
+  done: false
+  user_id: 1
+  
+nine:
+  name: Сделать план по участию мероприятиях
+  description: Сделать план по участию в нужных мероприятиях
+  stage_id: 2
+  done: false
+  user_id: 1
+
+ten:
+  name: Подготовить статьи на Хабре
+  description: Подготовить статьи на Хабре, привязанные к мероприятию
+  stage_id: 2
+  done: false
+  user_id: 1
+
+eleven:
+  name: Написать скрипты работы евангелистов на мероприятии
+  description: Написать скрипты работы евангелистов на мероприятии
+  stage_id: 2
+  done: false
+  user_id: 1
+
+twelve:
+  name: Подготовить евангелистов к мероприятию
+  description: Подготовить евангелистов к мероприятию
+  stage_id: 2
+  done: false
+  user_id: 1
+  
+thrirteen:
+  name: Заранее доставить всякую сувенирную продукцию
+  description: Заранее доставить всякую сувенирную продукцию (футболки, наклейки) в город проведения
+  stage_id: 2
+  done: false
+  user_id: 1
+  
+fourteen:
+  name: Отправить евангелистов в город проведения
+  description: Отправить евангелистов в город проведения
+  stage_id: 2
+  done: false
+  user_id: 1
+  
+fifteen:
+  name: Еще раз пройтись с евангелистами по скрипту перед открытием
+  description: Еще раз пройтись с евангелистами по скрипту перед открытием
+  stage_id: 3
+  done: false
+  user_id: 1
+  
+sixteen:
+  name: Евангелисты работают на мероприятии
+  description: Евангелисты работают на мероприятии
+  stage_id: 3
+  done: false
+  user_id: 1
+  
+seventeen:
+  name: Фиксировать контакты
+  description: Фиксировать контакты
+  stage_id: 3
+  done: false
+  user_id: 1
+
+eighteen:
+  name: Делать публикации в соцсети
+  description: Делать публикации в соцсети (Fb, Tw) по ходу мероприятия
+  stage_id: 3
+  done: false
+  user_id: 1
+
+nineteen:
+  name: Фидбек - что улучшить в проведении
+  description: Фидбек - что улучшить в проведении
+  stage_id: 4
+  done: false
+  user_id: 1 
+  
+twenty:
+  name: Передача наработанных контактов
+  description: Передача наработанных контактов
+  stage_id: 4
+  done: false
+  user_id: 1   
+
+twentyone:
+  name: Предложения по новым мероприятиям
+  description: Предложения по новым мероприятиям
+  stage_id: 4
+  done: false
+  user_id: 1  
+
+twentytwo:
+  name: Изучать технологию при любой возможности
+  description: Изучать технологию при любой возможности
+  stage_id: 5
+  done: false
+  user_id: 2 
+  
+twentythree:
+  name: Разбирать практические кейсы
+  description: Разбирать практические кейсы
+  stage_id: 5
+  done: false
+  user_id: 2 
+  
+twentyfour:
+  name: Тестировать границы и лимиты применения технологии
+  description: Тестировать границы и лимиты применения технологии (выйти за документированные пределы)
+  stage_id: 5
+  done: false
+  user_id: 2
+  
+twentyfive:
+  name: Изучать нестандартные кейсы
+  description: Изучать нестандартные кейсы
+  stage_id: 5
+  done: false
+  user_id: 2
+  
+twentysix:
+  name: Общаться с разработчиками
+  description: Общаться с разработчиками
+  stage_id: 5
+  done: false
+  user_id: 2
+  
+twentyseven:
+  name: Общаться с маркетологами
+  description: Общаться с маркетологами
+  stage_id: 5
+  done: false
+  user_id: 2
+  
+twentyeight:
+  name: Общаться с другими евангелистами
+  description: Общаться с другими евангелистами
+  stage_id: 5
+  done: false
+  user_id: 2
+  
+twentynine:
+  name: Проанализировать собственную мотивацию
+  description: Проанализировать собственную мотивацию
+  stage_id: 6
+  done: false
+  user_id: 2
+  
+thirty:
+  name: Научиться лучше говорить
+  description: Научиться лучше говорить, избавиться от слов паразитов
+  stage_id: 6
+  done: false
+  user_id: 2
+  
+thirtyone:
+  name: Научить рисовать картинки для презентаций
+  description: Научить рисовать картинки для презентаций
+  stage_id: 6
+  done: false
+  user_id: 2
+  
+thirtytwo:
+  name: Научиться делать презентации
+  description: Научиться делать презентации
+  stage_id: 6
+  done: false
+  user_id: 2
+  
+thirtythree:
+  name: Рассказывать о технологии в школах и университетах
+  description: Начать рассказывать о технологии в школах и университетах 
+  stage_id: 7
+  done: false
+  user_id: 2
+  
+thirtyfour:
+  name: Участвовать в профильных мероприятиях
+  description: Участвовать в профильных мероприятиях 
+  stage_id: 7
+  done: false
+  user_id: 2
+  
+thirtythree:
+  name: Писать статьи
+  description: Писать статьи 
+  stage_id: 7
+  done: false
+  user_id: 2
+  
+thirtythree:
+  name: Отрефлексировать личный баланс
+  description: Отрефлексировать личный баланс между практикой и евангелизмом 
+  stage_id: 8
+  done: false
+  user_id: 2
+
+thirtythree:
+  name: Понять приоритеты
+  description: Понять приоритеты - массовые выступления на широкую аудиторию или узкое общение с избранными продвинутыми людьми
+  stage_id: 8
+  done: false
+  user_id: 2
+
+thirtythree:
+  name: Развиваться и создавать новые истории
+  description: Развиваться и создавать новые истории 
+  stage_id: 9
+  done: false
+  user_id: 2

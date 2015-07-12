@@ -2,14 +2,98 @@
 
 one:
   id: 1
-  name: stage1
-  description: stage1
+  name: Подготовительный этап - создание сайта для новообращенных
+  description: Подготовительный этап
   plan_id: 1
   user_id: 1
 
 two:
   id: 2
-  name: stage2
-  description: stage2
+  name: Подготовка евангелистического мероприятия
+  description: Подготовка евангелистического мероприятия
   plan_id: 1
   user_id: 1
+
+three:
+  id: 3
+  name: Проведение мероприятия
+  description: Проведение мероприятия
+  plan_id: 1
+  user_id: 1
+
+four:
+  id: 4
+  name: После мероприятия
+  description: После мероприятия
+  plan_id: 1
+  user_id: 1
+  
+five:
+  id: 5
+  name: Больше знать
+  description: Больше знать
+  plan_id: 2
+  user_id: 2
+
+six:
+  id: 6
+  name: Быть готовым к евангелизму
+  description: Быть готовым к евангелизму
+  plan_id: 2
+  user_id: 2
+  
+seven:
+  id: 7
+  name: Быть евангелистом
+  description: Быть евангелистом
+  plan_id: 2
+  user_id: 2
+  
+eight:
+  id: 8
+  name: Понять личные приоритеты
+  description: Понять личные приоритеты
+  plan_id: 2
+  user_id: 2
+  
+nine:
+  id: 9
+  name: Непрерывное развитие
+  description: Непрерывное развитие
+  plan_id: 2
+  user_id: 2
+ 
+ten:
+  id: 10
+  name: Автоматизированный учёт проектной работы
+  description: Автоматизированный учёт проектной работы
+  plan_id: 4
+  user_id: 5 
+  
+eleven:
+  id: 11
+  name: Организация каналов продаж 
+  description: Организация каналов продаж
+  plan_id: 4
+  user_id: 5 
+
+twelve:
+  id: 12
+  name: Раскрутка бренда и стоимости компании 
+  description: Раскрутка бренда и стоимости компании
+  plan_id: 4
+  user_id: 5 
+
+thirteen:
+  id: 13
+  name: Работа с персоналом 
+  description: Работа с персоналом
+  plan_id: 4
+  user_id: 5 
+
+fourteen:
+  id: 14
+  name: Внедрить систему обмена информацией
+  description: Внедрить систему обмена информацией
+  plan_id: 4
+  user_id: 5 
