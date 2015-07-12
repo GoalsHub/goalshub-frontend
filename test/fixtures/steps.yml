@@ -370,3 +370,108 @@ fourtyfour:
   stage_id: 12
   done: false
   user_id: 4
+
+fourtyfive:
+  name: Наладить работу с ВУЗами с СУЗами 
+  description: Наладить работу с ВУЗами с СУЗами 
+  stage_id: 13
+  done: false
+  user_id: 4
+  
+fourtysix:
+  name: Ведение банка резюме 
+  description: Ведение банка резюме 
+  stage_id: 13
+  done: false
+  user_id: 4
+  
+fourtyseven:
+  name: Набор сотрудников 
+  description: Набор сотрудников 
+  stage_id: 13
+  done: false
+  user_id: 4
+
+fourtyeight:
+  name: Адаптация 
+  description: Адаптация 
+  stage_id: 13
+  done: false
+  user_id: 4
+  
+fourtynine:
+  name: Планирование обучения, сертификации 
+  description: Планирование обучения, сертификации 
+  stage_id: 13
+  done: false
+  user_id: 4
+  
+fifty:
+  name: Мотивация (карьера, зарплата) 
+  description: Мотивация (карьера, зарплата) 
+  stage_id: 13
+  done: false
+  user_id: 4
+  
+fiftyone:
+  name: Организация внутреннего портала 
+  description: Организация внутреннего портала 
+  stage_id: 14
+  done: false
+  user_id: 4
+  
+fiftytwo:
+  name: Новости компании 
+  description: Новости компании
+  stage_id: 14
+  done: false
+  user_id: 4
+  
+fiftythree:
+  name: Информация по сотрудникам 
+  description: Информация по сотрудникам 
+  stage_id: 14
+  done: false
+  user_id: 4
+  
+fiftyfour:
+  name: Организация внутреннего портала 
+  description: Организация внутреннего портала 
+  stage_id: 14
+  done: false
+  user_id: 4
+  
+fiftyfive:
+  name: Информация по проектам 
+  description: Информация по проектам 
+  stage_id: 14
+  done: false
+  user_id: 4
+  
+fiftysix:
+  name: Управление внутренними задачами 
+  description: Управление внутренними задачами 
+  stage_id: 14
+  done: false
+  user_id: 4
+  
+fiftyseven:
+  name: Общее хранилище документов 
+  description: Общее хранилище документов 
+  stage_id: 14
+  done: false
+  user_id: 4
+  
+fiftyeight:
+  name: Доступ как изнутри, так и снаружи 
+  description: Доступ как изнутри, так и снаружи 
+  stage_id: 14
+  done: false
+  user_id: 4
+  
+fiftynine:
+  name: Простота внедрения, настройки и использования 
+  description: Простота внедрения, настройки и использования 
+  stage_id: 14
+  done: false
+  user_id: 4
