@@ -57,9 +57,9 @@
 
     <div>
         <ul class="nav nav-tabs" role="tablist">
-            <li role="presentation" class="active"><a href="#plans" data-toggle="tab">Plans</a></li>
-            <li role="presentation"><a href="#goal" data-toggle="tab">Goal details</a></li>
-            <li role="presentation"><a href="#mindmap" data-toggle="tab">Mindmap</a></li>
+            <li role="presentation" class="active"><a href="#plans" role="tab" data-toggle="tab">Plans</a></li>
+            <li role="presentation"><a href="#goal" role="tab" data-toggle="tab">Goal details</a></li>
+            <li role="presentation"><a href="#mindmap" role="tab" data-toggle="tab">Mindmap</a></li>
         </ul>
 
         <div class="tab-content">
@@ -133,15 +133,19 @@
                 </div>
             </div>
 
-            <div class="tab-pane" id="goal">
+            <div role="tabpanel" class="tab-pane" id="goal">
                 Goal details
             </div>
 
-            <div class="tab-pane" id="mindmap">
+            <div role="tabpanel" class="tab-pane" id="mindmap">
                 Mindmap
             </div>
         </div>
     </div>
+
+    <br/>
+    <br/>
+    <p class="footer" style="text-align: center;">2015 GoalsHub</p>
 </div>
 
 </body>
