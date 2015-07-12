@@ -4,7 +4,7 @@ one:
   name: Описание плюсов, минусов, ценности технологии
   description: Описание плюсов, минусов, ценности технологии
   stage_id: 1
-  done: false
+  done: true
   user_id: 1
 
 two:
@@ -18,7 +18,7 @@ three:
   name: Разработка структуры сайта
   description: Разработка структуры сайта
   stage_id: 1
-  done: false
+  done: true
   user_id: 1
   
 four:
@@ -53,7 +53,7 @@ eight:
   name: Понять какие мероприятия нам нужны
   description: Понять какие мероприятия нам нужны
   stage_id: 2
-  done: false
+  done: true
   user_id: 1
   
 nine:
@@ -265,3 +265,108 @@ thirtythree:
   stage_id: 9
   done: false
   user_id: 2
+
+thirtyfour:
+  name: Запуск системы учета рабочего времени
+  description: Запуск системы учета рабочего времени 
+  stage_id: 10
+  done: false
+  user_id: 4
+  
+thirtyfive:
+  name: Организация учета поступлений денежных средств
+  description: Организация учета поступлений денежных средств
+  stage_id: 10
+  done: false
+  user_id: 4
+  
+thirtysix:
+  name: Выставление счетов
+  description: Выставление счетов 
+  stage_id: 10
+  done: false
+  user_id: 4
+  
+thirtyfour:
+  name: Отчетность
+  description: Отчетность 
+  stage_id: 10
+  done: false
+  user_id: 4
+  
+thirtyfive:
+  name: Определить перечень услуг и продуктов
+  description: Определить перечень услуг и продуктов
+  stage_id: 11
+  done: false
+  user_id: 4
+  
+thirtysix:
+  name: Наладить работу ОРК
+  description: Наладить работу ОРК
+  stage_id: 11
+  done: false
+  user_id: 4
+
+thirtyseven:
+  name: Определить рынки сбыта
+  description: Определить рынки сбыта - Производственные предприятия - Гос. Предприятия - Интеграторы - ИТ-компании - Субподряд
+  stage_id: 11
+  done: false
+  user_id: 4
+  
+thirtyeight:
+  name: Разработать стратегию поведения продаж
+  description: Разработать стратегию поведения продаж - По доходности - По компетенции
+  stage_id: 11
+  done: false
+  user_id: 4
+  
+thirtynine:
+  name: Работа с потенциальными клиентами
+  description: Работа с потенциальными клиентами
+  stage_id: 11
+  done: false
+  user_id: 4
+  
+fourty:
+  name: Обеспечить работу каналов связи 
+  description: Обеспечить работу каналов связи по телефону, сайт, почта и пр. 
+  stage_id: 11
+  done: false
+  user_id: 4
+  
+fourtyone:
+  name: Сделать визитки 
+  description: Сделать визитки 
+  stage_id: 12
+  done: false
+  user_id: 4
+  
+fourtyone:
+  name: Разработка имиджа и корпоративного стиля 
+  description: Разработка имиджа и корпоративного стиля 
+  stage_id: 12
+  done: false
+  user_id: 4
+  
+fourtytwo:
+  name: Статьи о компании в рынках сбыта 
+  description: Статьи о компании в рынках сбыта 
+  stage_id: 12
+  done: false
+  user_id: 4
+  
+fourtythree:
+  name: Ведение страницы в Facebook, VKontakte
+  description: Ведение страницы в Facebook, VKontakte
+  stage_id: 12
+  done: false
+  user_id: 4
+  
+fourtyfour:
+  name: Актуализация и доработка сайта компании 
+  description: Актуализация и доработка сайта компании 
+  stage_id: 12
+  done: false
+  user_id: 4
