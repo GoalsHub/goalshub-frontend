@@ -2,7 +2,7 @@ $('#form-signin').submit(function (event) {
     var email = $('#email').val(),
        password = $('#password').val();
 
-    $.post('http://sleepy-castle-1003.herokuapp.com/tokens.json', {
+    $.post('https://sleepy-castle-1003.herokuapp.com/tokens.json', {
        'email': email,
        'password': password
     }).done(function(data) {
