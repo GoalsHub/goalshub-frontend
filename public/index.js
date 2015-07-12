@@ -106,8 +106,6 @@ function addNewStep (button) {
 }
 
 function selectPlan (plan) {
-    var temp = _.template($('#stage-template').html());
-
     $('.list-group-item').removeClass('active');
     $(this).addClass('active');
 
@@ -118,7 +116,7 @@ function selectPlan (plan) {
 
 function viewStage(stage) {
     var temp = _.template($('#stage-template').html());
-    $( '<div id="stage-view-' + stage.entity_id + '">' + temp(stage) + '</div>')
+    $('<div id="stage-view-' + stage.entity_id + '">' + temp(stage) + '</div>')
         .appendTo('.steps-list');
 }
 
