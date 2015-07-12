@@ -35,13 +35,56 @@ $(function () {
         animate = !(iStuff || !nativeCanvasSupport);
     })();
 
+    $.get('http://sleepy-castle-1003.herokuapp.com/goals/1.json', function (model) {
 
-    $.get('http://sleepy-castle-1003.herokuapp.com/goals/1.json', function (json) {
 
-        drawGraph(json);
+
+        //drawGraph(model);
+
+        showPlans(model);
 
     });
 
-
-
 });
+
+function selectPlan (plan) {
+    var temp = _.template($('#stage-template').html());
+
+    $('.list-group-item').removeClass('active');
+    $(this).addClass('active');
+
+    $('.steps-list').html('');
+
+    plan.children.forEach(function (stage) {
+        $(temp(stage)).appendTo('.steps-list');
+    });
+
+}
+
+
+function showPlans (plans) {
+    var listPlans = $('.list-plans');
+
+    $.each(listPlans, function (i, elemList) {
+
+        plans.children.forEach(function(plan, i) {
+            var elemPlan = $('<a>')
+                    .addClass('list-group-item')
+                    .attr('href', '#plan/' + plan.id);
+
+            if (i === 0) {
+                elemPlan.addClass('active');
+
+                selectPlan(plan);
+            }
+
+            elemPlan.html(plan.name);
+
+            elemPlan.appendTo(elemList);
+
+            elemPlan.click(selectPlan.bind(elemPlan, plan));
+        })
+
+
+    });
+}
