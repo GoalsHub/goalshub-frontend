@@ -21,7 +21,7 @@ function drawGraph(json) {
 //            autoHeight: true,
             width: 240,
             type: 'rectangle',
-//            color: '#ccc',
+            color: 'orange',
             overridable: true
         },
 
@@ -82,7 +82,7 @@ function drawGraph(json) {
                     node.eachSubnode(function(n) { count++; });
                     //assign a node color based on
                     //how many children it has
-                    node.data.$color = ['#aaa', '#baa', '#caa', '#daa', '#eaa', '#faa'][count];
+                    //node.data.$color = ['#aaa', '#baa', '#caa', '#daa', '#eaa', '#faa'][count];
                 }
             }
         },
@@ -94,7 +94,7 @@ function drawGraph(json) {
         //override the Edge global style properties.
         onBeforePlotLine: function(adj){
             if (adj.nodeFrom.selected && adj.nodeTo.selected) {
-                adj.data.$color = "#eed";
+                adj.data.$color = "#ff7";
                 adj.data.$lineWidth = 3;
             }
             else {
