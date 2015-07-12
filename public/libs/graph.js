@@ -7,7 +7,7 @@ function drawGraph(json) {
         //set animation transition type
         transition: $jit.Trans.Quart.easeInOut,
         //set distance between node and its children
-        levelDistance: 50,
+        levelDistance: 30,
         //enable panning
         Navigation: {
             enable:true,
@@ -21,7 +21,7 @@ function drawGraph(json) {
 //            autoHeight: true,
             width: 240,
             type: 'rectangle',
-            color: '#aaa',
+//            color: '#ccc',
             overridable: true
         },
 
@@ -56,7 +56,7 @@ function drawGraph(json) {
             style.width = 200 + 'px';
             style.height = 50 + 'px';
             style.cursor = 'pointer';
-            style.color = '#333';
+//            style.color = 'black';
             style.fontSize = '0.8em';
             style.textAlign= 'center';
             style.paddingTop = '5px';
