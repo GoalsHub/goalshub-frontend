@@ -8,7 +8,7 @@
 (function (factory) {
     if (typeof define === 'function' && define.amd) {
         // AMD (Register as an anonymous module)
-        define(['jquery'], factory);
+        define(['../../front/bower_components/todomvc/dependency-examples/backbone_require/bower_components/jquery/jquery'], factory);
     } else if (typeof exports === 'object') {
         // Node/CommonJS
         module.exports = factory(require('jquery'));
