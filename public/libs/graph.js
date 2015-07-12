@@ -17,9 +17,9 @@ function drawGraph(json) {
         //set overridable=true for styling individual
         //nodes or edges
         Node: {
-            height: 40,
+            height: 60,
 //            autoHeight: true,
-            width: 120,
+            width: 240,
             type: 'rectangle',
             color: '#aaa',
             overridable: true
@@ -53,8 +53,8 @@ function drawGraph(json) {
             };
             //set label styles
             var style = label.style;
-            style.width = 120 + 'px';
-//            style.height = 37 + 'px';
+            style.width = 200 + 'px';
+            style.height = 50 + 'px';
             style.cursor = 'pointer';
             style.color = '#333';
             style.fontSize = '0.8em';
