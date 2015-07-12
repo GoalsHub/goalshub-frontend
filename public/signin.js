@@ -10,7 +10,7 @@ $('#form-signin').submit(function (event) {
         sessionStorage.setItem('email', email);
         sessionStorage.setItem('token', data.token);
 
-        window.location = 'panel-tree.html';
+        window.location = 'index.html';
 
     }).fail(function (data) {
         var modal = $('#modal-error-singin');
