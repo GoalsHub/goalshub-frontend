@@ -1,9 +1,9 @@
-/**
- * Created by pavpow on 11.07.15.
- */
-modules.define('goal', [], function (provide) {
 
-    var _Object = {};
+/* Модель шага */
+var Goal = can.Model.extend({
+    findAll: 'GET /goal.json',
+    findOne: 'GET /steps/{id}',
+    update: 'PUT /steps/{id}',
+    destroy: 'DELETE /steps/{id}'
+}, {});
 
-    provide(_Object);
-});

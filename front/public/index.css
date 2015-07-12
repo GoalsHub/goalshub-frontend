@@ -3,15 +3,11 @@
 
 * {
     font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-}
-
-todos-app {
-    display: block;
+    background: silver;
 }
 
 #content {
     max-width: 450px;
-    background-color: #ffffff;
 }
 
 h2 {
@@ -93,3 +89,7 @@ li > button:after {
     color: #d63129;
     content: 'X';
 }
+
+
+
+

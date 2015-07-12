@@ -4,23 +4,38 @@
     <meta charset="UTF-8">
     <title></title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="libs/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/bootstrap-theme.min.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="tree.css">
 
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/bootstrap.min.js"></script>
+<!--
     <script src="//canjs.com/release/2.1.0/can.jquery.js"></script>
     <script src="//canjs.com/release/2.1.0/can.object.js"></script>
-    <script src="//canjs.com/release/2.1.0/can.fixture.js"></script>
+    <script src="//canjs.com/release/2.1.0/can.fixture.js"></script>-->
     <script src="libs/jquery.cookie.js"></script>
-
+<!--
     <script src="components/step/step.model.js"></script>
-    <script src="components/stage/stage.js"></script>
+    <script src="components/stage/stage.js"></script>-->
+    <script src="libs/d3.min.js"></script>
+    <script src="tree.js"></script>
     <script src="index.js"></script>
+
+    <style>
+        .graph {
+            height: 600px;
+        }
+    </style>
 </head>
 <body>
 
+<div class="panel panel-primary">
+    <div class="panel-heading info-panel__title">Goal</div>
+    <div class="panel-body info-panel__body"></div>
+    <div id="tree-container" class="graph"></div>
+</div>
 <div id="content" class="container"></div>
 
 </body>
